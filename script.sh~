@@ -1,0 +1,4 @@
+for i in {0..100}
+do
+    echo youve been hacked! > "File$(printf "%03d" "$i").txt$i"
+done
